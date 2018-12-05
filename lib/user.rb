@@ -19,8 +19,7 @@ class User
   end
 
 #needs to take id of one of the jokes.
-  def joke_by_id(jokes)
-    jokes.key
+  def joke_by_id(new_joke_id)
   end
 
 

@@ -18,7 +18,10 @@ class User
   def tell(name, jokes)
   end
 
+#needs to take id of one of the jokes.
   def joke_by_id(jokes)
-    return @jokes
+    jokes.key
   end
+
+
 end

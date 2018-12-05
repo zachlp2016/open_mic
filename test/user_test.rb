@@ -39,7 +39,7 @@ class UserTest < Minitest::Test
   def test_joke_by_id
     joke_1 = Joke.new(1, "Why did the strawberry cross the road?", "Because his mother was in a jam.")
     joke_2 = Joke.new(2, "How do you keep a lion from charging?", "Take away its credit cards.")
-    assert_equal 2, @sal.joke_by_id(1)
+    assert_equal 1, @sal.joke_by_id(1)
   end
 
     # pry(main)> sal.tell(ali, joke_1)

@@ -24,6 +24,6 @@ class UserTest < Minitest::Test
     joke_2 = Joke.new(2, "How do you keep a lion from charging?", "Take away its credit cards.")
     @sal.learn(joke_1)
     @sal.learn(joke_2)
-    binding.pry
+    @sal.jokes
   end
 end
